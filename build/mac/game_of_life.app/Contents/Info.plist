@@ -9,7 +9,7 @@
     <key>CFBundleExecutable</key>
     <string>game_of_life</string>
     <key>CFBundleIconFile</key>
-    <string>game_of_life.icns</string>
+    <string>electron.icns</string>
     <key>CFBundleIdentifier</key>
     <string>com.myId</string>
     <key>CFBundleInfoDictionaryVersion</key>
@@ -81,6 +81,6 @@
       </dict>
     </dict>
     <key>AsarIntegrity</key>
-    <string>{"checksums":{"app.asar":"Q3BwJu7g0I9Qd2mnOi44QRdZVi0WfW68WA9NMHtPoK9ywmAi28p3xQEaTMmeDk+J0m/AG8TeOrcnRz2PkAqy3g==","electron.asar":"2v7amfT1Fq+DnoMqyAVFMiZPm/XU+BurMz50bEOEt3obKeeElowcZRf1asKJYN7jtPeW/s+RmotWxoE/4XoxYA=="}}</string>
+    <string>{"checksums":{"app.asar":"ucnFw0IdNYtXG2sMzCqlyo7TqePzmPHlWxyYQajSs/2Y0BstKC93Y9uudNnjGF5kdYMaCwjPjjhJ5N5d9JEe0g==","electron.asar":"2v7amfT1Fq+DnoMqyAVFMiZPm/XU+BurMz50bEOEt3obKeeElowcZRf1asKJYN7jtPeW/s+RmotWxoE/4XoxYA=="}}</string>
   </dict>
 </plist>
