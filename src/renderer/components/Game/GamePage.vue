@@ -4,7 +4,7 @@
     <button class="btn btn-danger" @click="reset">Reset</button>
     <input type="number" v-model="areaSize" @change="reset()">
     <button class="btn btn-info" @click="live()">Next step</button>
-    <button class="btn btn-success"v-if="!running" @click="startLive()">Live</button>
+    <button class="btn btn-success" v-if="!running" @click="startLive()">Live</button>
     <button class="btn btn-danger" v-if="running" @click="stop()">Stop</button>
     <div class="volume row">
       <div class="col-3">
@@ -22,8 +22,8 @@
       <p>Dead DOT: {{ deadDots }}</p>
       <p>All DOT: {{ aliveDots + deadDots }}</p>
       <div class="net">
-        <div class="row" v-for="row of dots">
-          <div class="dot" v-for="dot of row">
+        <div class="row" v-for="(row, rowKey) of dots" v-bind:key="rowKey">
+          <div class="dot" v-for="(dot, dotKey) of row" v-bind:key="dotKey">
             <div class="life" v-if="dot">
 
             </div>
