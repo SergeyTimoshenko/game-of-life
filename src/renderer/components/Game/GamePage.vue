@@ -1,6 +1,6 @@
 <template>
   <div class="">
-    <router-link tag="button" class="btn btn-primary" to="/">< go back </router-link>
+    <router-link tag="button" class="btn btn-primary" to="/"> go back </router-link>
     <button class="btn btn-danger" @click="reset">Reset</button>
     <input type="number" v-model="areaSize" @change="reset()">
     <button class="btn btn-info" @click="live()">Next step</button>

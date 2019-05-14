@@ -18,6 +18,11 @@ export default new Router({
       path: '/game',
       name: 'game',
       component: require('@/components/Game/GamePage').default
+    },
+    {
+      path: '/words',
+      name: 'words',
+      component: require('@/components/Words/WordsPage').default
     }
   ]
 })
